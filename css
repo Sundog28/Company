@@ -1,0 +1,97 @@
+body {
+  margin: 0;
+  font-family: "Press Start 2P", serif;
+  color: maroon;
+  background-color: black;
+  font-size: 22px;
+  text-align: center;
+  background-image: url("https://image.tensorartassets.com/cdn-cgi/image/anim=false,plain=false,w=1536,f=jpeg,q=85/posts/images/621002256380100807/04689e46-cd62-4fb6-8548-54dd8e66eb09.jpg");
+  background-repeat: no-repeat;
+}
+
+a {
+  color: purple;
+}
+
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+  padding: 10px;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: black;
+  width: 100%;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 10%;
+}
+
+.navbar p {
+  display: inline-block;
+  padding: 10px 10px;
+}
+
+.main {
+  padding-top: 35px;
+  opacity: 0.9;
+}
+
+.mission {
+  display: flex;
+  height: 300px;
+  padding-top: 35px;
+}
+
+.mission .content {
+  margin: auto;
+  background-color: white;
+  width: 100%;
+}
+
+#portfolio {
+  min-height: 500px;
+  margin: auto;
+  padding-top: 70px;
+}
+
+.companies {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.company {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.company img {
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+  padding: 10px;
+  height: auto;
+}
+
+.company span {
+  padding: 5px;
+  min-width: 240px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.contact,
+.copyright {
+  padding-top: 20px;
+}
